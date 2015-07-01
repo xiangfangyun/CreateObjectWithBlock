@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C690DB551B4376690067ECE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C690DB541B4376690067ECE0 /* main.m */; };
+		C690DB581B4376690067ECE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C690DB571B4376690067ECE0 /* AppDelegate.m */; };
+		C690DB5B1B4376690067ECE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C690DB5A1B4376690067ECE0 /* ViewController.m */; };
+		C690DB5E1B4376690067ECE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C690DB5C1B4376690067ECE0 /* Main.storyboard */; };
+		C690DB601B4376690067ECE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C690DB5F1B4376690067ECE0 /* Images.xcassets */; };
+		C690DB631B4376690067ECE0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C690DB611B4376690067ECE0 /* LaunchScreen.xib */; };
+		C690DB6F1B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C690DB6E1B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.m */; };
+		C690DB7A1B43791D0067ECE0 /* NSObject+createWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C690DB791B43791D0067ECE0 /* NSObject+createWithBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C690DB691B4376690067ECE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C690DB471B4376690067ECE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C690DB4E1B4376690067ECE0;
+			remoteInfo = ObjectCreateWithBolckDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C690DB4F1B4376690067ECE0 /* ObjectCreateWithBolckDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectCreateWithBolckDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690DB531B4376690067ECE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C690DB541B4376690067ECE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C690DB561B4376690067ECE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C690DB571B4376690067ECE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C690DB591B4376690067ECE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C690DB5A1B4376690067ECE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C690DB5D1B4376690067ECE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C690DB5F1B4376690067ECE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C690DB621B4376690067ECE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C690DB681B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectCreateWithBolckDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C690DB6D1B4376690067ECE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C690DB6E1B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectCreateWithBolckDemoTests.m; sourceTree = "<group>"; };
+		C690DB781B43791D0067ECE0 /* NSObject+createWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+createWithBlock.h"; sourceTree = "<group>"; };
+		C690DB791B43791D0067ECE0 /* NSObject+createWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+createWithBlock.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C690DB4C1B4376690067ECE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C690DB651B4376690067ECE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C690DB461B4376690067ECE0 = {
+			isa = PBXGroup;
+			children = (
+				C690DB511B4376690067ECE0 /* ObjectCreateWithBolckDemo */,
+				C690DB6B1B4376690067ECE0 /* ObjectCreateWithBolckDemoTests */,
+				C690DB501B4376690067ECE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C690DB501B4376690067ECE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C690DB4F1B4376690067ECE0 /* ObjectCreateWithBolckDemo.app */,
+				C690DB681B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C690DB511B4376690067ECE0 /* ObjectCreateWithBolckDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C690DB781B43791D0067ECE0 /* NSObject+createWithBlock.h */,
+				C690DB791B43791D0067ECE0 /* NSObject+createWithBlock.m */,
+				C690DB561B4376690067ECE0 /* AppDelegate.h */,
+				C690DB571B4376690067ECE0 /* AppDelegate.m */,
+				C690DB591B4376690067ECE0 /* ViewController.h */,
+				C690DB5A1B4376690067ECE0 /* ViewController.m */,
+				C690DB5C1B4376690067ECE0 /* Main.storyboard */,
+				C690DB5F1B4376690067ECE0 /* Images.xcassets */,
+				C690DB611B4376690067ECE0 /* LaunchScreen.xib */,
+				C690DB521B4376690067ECE0 /* Supporting Files */,
+			);
+			path = ObjectCreateWithBolckDemo;
+			sourceTree = "<group>";
+		};
+		C690DB521B4376690067ECE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C690DB531B4376690067ECE0 /* Info.plist */,
+				C690DB541B4376690067ECE0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C690DB6B1B4376690067ECE0 /* ObjectCreateWithBolckDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C690DB6E1B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.m */,
+				C690DB6C1B4376690067ECE0 /* Supporting Files */,
+			);
+			path = ObjectCreateWithBolckDemoTests;
+			sourceTree = "<group>";
+		};
+		C690DB6C1B4376690067ECE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C690DB6D1B4376690067ECE0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C690DB4E1B4376690067ECE0 /* ObjectCreateWithBolckDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C690DB721B4376690067ECE0 /* Build configuration list for PBXNativeTarget "ObjectCreateWithBolckDemo" */;
+			buildPhases = (
+				C690DB4B1B4376690067ECE0 /* Sources */,
+				C690DB4C1B4376690067ECE0 /* Frameworks */,
+				C690DB4D1B4376690067ECE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectCreateWithBolckDemo;
+			productName = ObjectCreateWithBolckDemo;
+			productReference = C690DB4F1B4376690067ECE0 /* ObjectCreateWithBolckDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C690DB671B4376690067ECE0 /* ObjectCreateWithBolckDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C690DB751B4376690067ECE0 /* Build configuration list for PBXNativeTarget "ObjectCreateWithBolckDemoTests" */;
+			buildPhases = (
+				C690DB641B4376690067ECE0 /* Sources */,
+				C690DB651B4376690067ECE0 /* Frameworks */,
+				C690DB661B4376690067ECE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C690DB6A1B4376690067ECE0 /* PBXTargetDependency */,
+			);
+			name = ObjectCreateWithBolckDemoTests;
+			productName = ObjectCreateWithBolckDemoTests;
+			productReference = C690DB681B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C690DB471B4376690067ECE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiangfangyun;
+				TargetAttributes = {
+					C690DB4E1B4376690067ECE0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C690DB671B4376690067ECE0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C690DB4E1B4376690067ECE0;
+					};
+				};
+			};
+			buildConfigurationList = C690DB4A1B4376690067ECE0 /* Build configuration list for PBXProject "ObjectCreateWithBolckDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C690DB461B4376690067ECE0;
+			productRefGroup = C690DB501B4376690067ECE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C690DB4E1B4376690067ECE0 /* ObjectCreateWithBolckDemo */,
+				C690DB671B4376690067ECE0 /* ObjectCreateWithBolckDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C690DB4D1B4376690067ECE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C690DB5E1B4376690067ECE0 /* Main.storyboard in Resources */,
+				C690DB631B4376690067ECE0 /* LaunchScreen.xib in Resources */,
+				C690DB601B4376690067ECE0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C690DB661B4376690067ECE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C690DB4B1B4376690067ECE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C690DB5B1B4376690067ECE0 /* ViewController.m in Sources */,
+				C690DB581B4376690067ECE0 /* AppDelegate.m in Sources */,
+				C690DB551B4376690067ECE0 /* main.m in Sources */,
+				C690DB7A1B43791D0067ECE0 /* NSObject+createWithBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C690DB641B4376690067ECE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C690DB6F1B4376690067ECE0 /* ObjectCreateWithBolckDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C690DB6A1B4376690067ECE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C690DB4E1B4376690067ECE0 /* ObjectCreateWithBolckDemo */;
+			targetProxy = C690DB691B4376690067ECE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C690DB5C1B4376690067ECE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C690DB5D1B4376690067ECE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C690DB611B4376690067ECE0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C690DB621B4376690067ECE0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C690DB701B4376690067ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C690DB711B4376690067ECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C690DB731B4376690067ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjectCreateWithBolckDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C690DB741B4376690067ECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ObjectCreateWithBolckDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C690DB761B4376690067ECE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ObjectCreateWithBolckDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectCreateWithBolckDemo.app/ObjectCreateWithBolckDemo";
+			};
+			name = Debug;
+		};
+		C690DB771B4376690067ECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ObjectCreateWithBolckDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectCreateWithBolckDemo.app/ObjectCreateWithBolckDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C690DB4A1B4376690067ECE0 /* Build configuration list for PBXProject "ObjectCreateWithBolckDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C690DB701B4376690067ECE0 /* Debug */,
+				C690DB711B4376690067ECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C690DB721B4376690067ECE0 /* Build configuration list for PBXNativeTarget "ObjectCreateWithBolckDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C690DB731B4376690067ECE0 /* Debug */,
+				C690DB741B4376690067ECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C690DB751B4376690067ECE0 /* Build configuration list for PBXNativeTarget "ObjectCreateWithBolckDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C690DB761B4376690067ECE0 /* Debug */,
+				C690DB771B4376690067ECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C690DB471B4376690067ECE0 /* Project object */;
+}
